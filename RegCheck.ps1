@@ -10,6 +10,7 @@ param(
     [switch]$DumpOnly=$false
 )
 
+
 function Check-FilterType {
     param(
         [Parameter(Mandatory=$true)]
